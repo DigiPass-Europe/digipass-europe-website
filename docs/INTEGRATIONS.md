@@ -4,8 +4,8 @@ The site runs completely without external services (**demo mode**). Each integra
 
 | Capability | Provider | Status | Activated by | Code |
 |---|---|---|---|---|
-| Database, storage | Supabase (Postgres, EU region) | **not configured** | `NEXT_PUBLIC_SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` | `src/lib/db/index.ts`, `supabase/migrations` |
-| Authentication | Supabase Auth (email+password, magic link) | **not configured** | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | `src/lib/auth/session.ts` |
+| Database, storage | Supabase (Postgres, eu-central-1, project `digipass-europe`) | configured | `NEXT_PUBLIC_SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` | `src/lib/db/index.ts`, `supabase/migrations` |
+| Authentication | Supabase Auth (email+password, magic link) | configured (project eu-central-1) | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | `src/lib/auth/session.ts` |
 | Demo roles | Signed HTTP-only cookie | active in demo mode | `SESSION_SECRET` | `src/lib/auth/actions.ts` |
 | Membership payment | Stripe Checkout (invoice after Board approval) | **not configured** | `STRIPE_*` | to add: `src/app/api/stripe/*` |
 | Transactional email | Resend or Postmark | **not configured** | `EMAIL_*` | to add: `src/lib/email.ts` |
@@ -16,7 +16,7 @@ The site runs completely without external services (**demo mode**). Each integra
 ## Set-up order
 
 1. **Supabase**: create a project (EU region), run `supabase/migrations/0001_init.sql` then `supabase/seed.sql`. Copy URL, anon key and service-role key to the environment. Applications, registrations and contact messages are now stored; the login page switches to real auth automatically.
-2. **Auth routes**: add `src/app/api/auth/sign-in` and `.../magic-link` route handlers using `@supabase/ssr` (`createServerClient` with cookie `setAll`). The login form already posts to those paths when auth is configured.
+2. **Auth routes**: implemented in `src/app/api/auth/{sign-in,magic-link,callback,sign-out}`. In Supabase → Authentication → URL Configuration set Site URL to `https://digipass-europe.eu` and add `https://digipass-europe.eu/api/auth/callback` (and the vercel.app preview host) to Redirect URLs.
 3. **Email**: implement `sendEmail()` in `src/lib/email.ts` and call it from `api/applications` (confirmation to applicant + alert to `BOARD_NOTIFICATION_EMAIL`), `api/events` (confirmation), and a scheduled job for renewal reminders (60 and 30 days before `memberships.renewal_at`; Vercel Cron → `api/cron/renewals`).
 4. **Stripe**: after a Board member sets an application to `approved`, create an invoice (`invoices` table) and a Checkout session; webhook marks `paid_at`. Card payment is optional — bank transfer remains the default for an Austrian association.
 5. **Approval workflow**: `applications.endorsements` must contain two entries, one with `is_board_member = true`, before `status` can move to `ready` (statutes § 4 f). Enforce in the admin action.

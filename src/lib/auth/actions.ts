@@ -2,7 +2,8 @@
 import { cookies } from "next/headers";
 import { redirect } from "@/i18n/navigation";
 import { getLocale } from "next-intl/server";
-import { DEMO_COOKIE_NAME, encodeDemo } from "./session";
+import { DEMO_COOKIE_NAME, encodeDemo, hasSupabaseAuth } from "./session";
+import { supabaseServer } from "./supabase-server";
 import type { Role } from "./roles";
 
 export async function demoLogin(formData: FormData) {
@@ -12,6 +13,7 @@ export async function demoLogin(formData: FormData) {
   redirect({ href: "/portal", locale: await getLocale() });
 }
 export async function logout() {
+  if (hasSupabaseAuth()) { const supabase = await supabaseServer(); await supabase.auth.signOut(); }
   (await cookies()).delete(DEMO_COOKIE_NAME);
   redirect({ href: "/", locale: await getLocale() });
 }

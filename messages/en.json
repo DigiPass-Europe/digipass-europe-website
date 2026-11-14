@@ -505,7 +505,9 @@
       "admin": "Association administrator"
     },
     "notMember": "Not a member yet?",
-    "apply": "Apply for membership"
+    "apply": "Apply for membership",
+    "errorInvalid": "Sign-in failed. Check your email and password, or request a sign-in link.",
+    "linkSent": "If this address belongs to a member, a sign-in link has been sent."
   },
   "portal": {
     "title": "Member portal",

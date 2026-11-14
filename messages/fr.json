@@ -505,7 +505,9 @@
       "admin": "Administrateur·rice de l’association"
     },
     "notMember": "Pas encore membre ?",
-    "apply": "Demander l’adhésion"
+    "apply": "Demander l’adhésion",
+    "errorInvalid": "Échec de la connexion. Vérifiez votre e-mail et votre mot de passe, ou demandez un lien de connexion.",
+    "linkSent": "Si cette adresse appartient à un membre, un lien de connexion a été envoyé."
   },
   "portal": {
     "title": "Espace membre",

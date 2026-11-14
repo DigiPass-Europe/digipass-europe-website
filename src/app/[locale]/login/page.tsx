@@ -7,8 +7,8 @@ import { demoLogin } from "@/lib/auth/actions";
 
 export const metadata: Metadata = { title: "Member login" };
 
-export default async function LoginPage({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params; setRequestLocale(locale);
+export default async function LoginPage({ params, searchParams }: { params: Promise<{ locale: string }>; searchParams: Promise<{ error?: string; sent?: string }> }) {
+  const { locale } = await params; setRequestLocale(locale); const sp = await searchParams;
   const t = await getTranslations("login");
   const live = hasSupabaseAuth();
   const field = "focus-ring mt-1 block w-full rounded-md border border-line bg-white px-3 py-2.5 text-sm";
@@ -25,6 +25,8 @@ export default async function LoginPage({ params }: { params: Promise<{ locale: 
                 <button className="focus-ring h-11 rounded-md bg-blue text-sm font-semibold text-white">{t("signIn")}</button>
                 <button formAction="/api/auth/magic-link" className="text-sm text-blue hover:underline">{t("magic")}</button>
                 <p className="text-xs text-ink-soft">{t("liveNote")}</p>
+                {sp.error && <p role="alert" className="rounded-md border border-red-300 bg-red-50 px-3 py-2 text-sm text-red-800">{t("errorInvalid")}</p>}
+                {sp.sent && <p role="status" className="rounded-md border border-green bg-green/10 px-3 py-2 text-sm text-green-deep">{t("linkSent")}</p>}
               </form>
             ) : (
               <>
