@@ -1,13 +1,15 @@
 import "server-only";
 import { cookies } from "next/headers";
-import { createHmac, timingSafeEqual } from "node:crypto";
+import { createHmac, timingSafeEqual, randomBytes } from "node:crypto";
 import { createServerClient } from "@supabase/ssr";
 import type { Role } from "./roles";
 
 export type Session = { mode: "demo" | "live"; role: Role; name: string; email: string; organisation?: string; userId?: string };
 
 const DEMO_COOKIE = "dp_demo_session";
-const secret = () => process.env.SESSION_SECRET ?? "digipass-demo-secret-change-me";
+// Without SESSION_SECRET a random per-process secret is used: demo sessions then simply expire on restart.
+const generated = randomBytes(32).toString("hex");
+const secret = () => process.env.SESSION_SECRET || generated;
 const sign = (v: string) => createHmac("sha256", secret()).update(v).digest("hex");
 
 export const hasSupabaseAuth = () => Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL && process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
