@@ -42,5 +42,157 @@
     "open": "Poste à pourvoir",
     "openDesc": "Élu·e par les membres du groupe une fois celui-ci constitué"
   },
-  "locale": { "en": "English", "fr": "Français", "switch": "Langue" }
+  "locale": {
+    "en": "English",
+    "fr": "Français",
+    "switch": "Langue"
+  },
+  "home": {
+    "heroEyebrow": "Association européenne pour le passeport numérique des produits",
+    "heroCta": "Devenir membre",
+    "heroSecondary": "Découvrir les groupes de travail",
+    "introEyebrow": "Qui nous sommes",
+    "introTitle": "Un pôle, pas un lobby.",
+    "introText": "DigiPass:Europe est une association technico-scientifique à but non lucratif. Ses membres construisent, réglementent, étudient et utilisent les passeports numériques des produits ; l’association leur offre une table commune, dix groupes de travail et une ligne directe avec les institutions qui écrivent les règles.",
+    "whyEyebrow": "Pourquoi c’est important",
+    "whyTitle": "Pourquoi le passeport numérique des produits compte",
+    "missionEyebrow": "Mission et objectifs",
+    "missionTitle": "Ce que les statuts nous demandent",
+    "ecosystemEyebrow": "L’écosystème",
+    "ecosystemTitle": "Un passeport, six types de lecteurs",
+    "ecosystemLead": "Le passeport voyage avec le produit. Chaque acteur y écrit ou y lit ; l’association existe pour qu’ils s’accordent tous sur la manière.",
+    "ecosystemCentre": "Passeport numérique du produit",
+    "actors": [
+      "Fabricants",
+      "Fournisseurs",
+      "Consommateurs",
+      "Régulateurs",
+      "Infrastructure numérique",
+      "Recycleurs"
+    ],
+    "benefitsEyebrow": "Avantages de l’adhésion",
+    "benefitsTitle": "Ce que reçoivent les membres",
+    "benefits": [
+      [
+        "Un siège dans les groupes de travail",
+        "Influencez recommandations, lignes directrices et prises de position avant leur publication."
+      ],
+      [
+        "Veille réglementaire",
+        "Suivi mensuel de l’ESPR, des actes délégués et des normes, lu par ceux qui doivent les appliquer."
+      ],
+      [
+        "Un réseau européen",
+        "Industrie, recherche, fournisseurs de technologies, organismes de normalisation et autorités publiques dans un même annuaire."
+      ],
+      [
+        "Pilotes et démonstrateurs",
+        "Testez votre mise en œuvre face aux autres avant qu’un client ou une autorité de surveillance ne le fasse."
+      ]
+    ],
+    "wgEyebrow": "Groupes de travail",
+    "wgTitle": "Dix groupes, un écosystème",
+    "wgLead": "Les membres choisissent leurs groupes ; chacun élit sa présidence et adopte un plan de travail annuel.",
+    "wgAll": "Tous les groupes de travail",
+    "eventsEyebrow": "Prochains événements",
+    "eventsTitle": "Là où le travail se fait",
+    "eventsAll": "Tous les événements",
+    "pubsEyebrow": "Dernières publications",
+    "pubsTitle": "Du centre de ressources",
+    "pubsAll": "Centre de ressources",
+    "membersEyebrow": "Membres et partenaires",
+    "membersTitle": "Qui est déjà autour de la table",
+    "membersNote": "Les membres fondateurs seront listés ici au fur et à mesure de leur admission. Les profils affichés sont illustratifs.",
+    "membersAll": "Annuaire des membres",
+    "callsEyebrow": "Appels à participation",
+    "callsTitle": "Appels ouverts",
+    "calls": [
+      [
+        "Président·es et vice-président·es",
+        "Chacun des dix groupes de travail élit sa direction parmi ses membres.",
+        "/working-groups"
+      ],
+      [
+        "Cohorte pilote : textile",
+        "Les WG4 et WG10 constituent une cohorte d’entreprises textiles pour un pilote commun.",
+        "/working-groups/industrial-adoption-sectoral-implementation"
+      ],
+      [
+        "Proposer un groupe de travail",
+        "Les membres peuvent proposer de nouveaux groupes au Conseil.",
+        "/contact"
+      ]
+    ],
+    "ctaTitle": "Rejoignez l’association qui façonne les passeports produits de l’Europe.",
+    "ctaText": "Ouverte aux entreprises de toute taille, universités, centres de recherche, organismes publics et personnes qualifiées.",
+    "ctaButton": "Devenir membre",
+    "ctaSecondary": "Comparer les options d’adhésion",
+    "newsEyebrow": "Actualités",
+    "newsAll": "Toutes les actualités"
+  },
+  "about": {
+    "title": "À propos de DigiPass:Europe",
+    "lead": "Une association technico-scientifique à but non lucratif, fondée pour être le pôle européen de mise en réseau du passeport numérique des produits et l’interface avec les institutions et organismes de normalisation qui le définissent.",
+    "missionTitle": "Mission et vision",
+    "purposeTitle": "Objet",
+    "roleTitle": "Rôle",
+    "scopeTitle": "Champ d’action",
+    "objectivesTitle": "Objectifs et activités",
+    "objectivesLead": "Les statuts énumèrent les moyens par lesquels l’association poursuit son objet (§ 3 a). Les groupes de travail et services de ce site en sont la mise en pratique.",
+    "governanceTitle": "Structure de gouvernance",
+    "governanceLead": "Les organes de l’association sont définis au § 8 des statuts. Les titulaires seront publiés ici une fois élus ; aucun nom n’est indiqué avant.",
+    "boardTitle": "Conseil d’administration",
+    "boardNote": "Le Conseil se compose d’au moins cinq personnes physiques, les membres fondateurs, plus les membres élus par l’Assemblée générale. Noms et fonctions seront publiés après la réunion constitutive.",
+    "wgLeadershipTitle": "Direction des groupes de travail",
+    "wgLeadershipNote": "Chaque groupe de travail élit un·e président·e et un·e vice-président·e. Tous les postes sont actuellement à pourvoir.",
+    "statutesTitle": "Statuts",
+    "statutesText": "Les statuts (allemand, avec traduction anglaise) régissent l’objet, l’adhésion, les organes et la dissolution.",
+    "statutesDownload": "Statuts (PDF) — à publier",
+    "conditionsTitle": "Conditions d’adhésion",
+    "conditionsLead": "L’admission et la fin de l’adhésion suivent les § 4, § 6 et § 7 des statuts.",
+    "admissionTitle": "Admission",
+    "terminationTitle": "Fin de l’adhésion",
+    "transparencyTitle": "Transparence",
+    "transparencyLead": "Le statut non lucratif entraîne des obligations. Voici celles que les statuts rendent contraignantes.",
+    "reportsTitle": "Rapports annuels",
+    "reportsText": "Le Conseil rend compte à l’Assemblée générale des activités de l’année écoulée, présente les comptes et prépare le budget (§ 9 l). Les rapports annuels seront publiés ici à partir du premier exercice complet.",
+    "contactTitle": "Contact"
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "Le Secrétariat répond aux questions sur l’adhésion, les groupes de travail, les événements et la presse.",
+    "general": "Demandes générales",
+    "membership": "Adhésion",
+    "press": "Presse",
+    "seat": "Siège",
+    "formTitle": "Écrivez-nous",
+    "name": "Nom",
+    "email": "Adresse e-mail professionnelle",
+    "organisation": "Organisation (facultatif)",
+    "subject": "Objet",
+    "subjects": [
+      "Adhésion",
+      "Groupes de travail",
+      "Événements",
+      "Partenariat ou parrainage",
+      "Presse",
+      "Autre"
+    ],
+    "message": "Message",
+    "consent": "J’accepte que mes données soient traitées pour répondre à ma demande (voir la politique de confidentialité).",
+    "send": "Envoyer",
+    "proposeTitle": "Proposer un groupe de travail",
+    "proposeText": "Les membres ordinaires peuvent proposer de nouveaux groupes de travail au Conseil. Utilisez le formulaire avec l’objet « Groupes de travail » et décrivez le périmètre, les membres attendus et les premiers livrables."
+  },
+  "navShort": {
+    "about": "À propos",
+    "membership": "Adhésion",
+    "workingGroups": "Groupes de travail",
+    "activities": "Activités",
+    "events": "Événements",
+    "knowledge": "Ressources",
+    "news": "Actualités",
+    "members": "Membres",
+    "contact": "Contact"
+  }
 }

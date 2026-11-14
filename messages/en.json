@@ -42,5 +42,157 @@
     "open": "Position open",
     "openDesc": "Elected by the group's members once constituted"
   },
-  "locale": { "en": "English", "fr": "Français", "switch": "Language" }
+  "locale": {
+    "en": "English",
+    "fr": "Français",
+    "switch": "Language"
+  },
+  "home": {
+    "heroEyebrow": "European association for the Digital Product Passport",
+    "heroCta": "Become a member",
+    "heroSecondary": "Explore the working groups",
+    "introEyebrow": "Who we are",
+    "introTitle": "A hub, not a lobby.",
+    "introText": "DigiPass:Europe is a non-profit technical-scientific association. Its members build, regulate, research and use Digital Product Passports; the association gives them one table, ten working groups and a direct line to the institutions that write the rules.",
+    "whyEyebrow": "Why it matters",
+    "whyTitle": "Why Digital Product Passports matter",
+    "missionEyebrow": "Mission and objectives",
+    "missionTitle": "What the statutes ask of us",
+    "ecosystemEyebrow": "The ecosystem",
+    "ecosystemTitle": "One passport, six kinds of reader",
+    "ecosystemLead": "The passport travels with the product. Every actor along the way writes to it or reads from it; the association exists so that they all agree on how.",
+    "ecosystemCentre": "Digital Product Passport",
+    "actors": [
+      "Manufacturers",
+      "Suppliers",
+      "Consumers",
+      "Regulators",
+      "Digital infrastructure",
+      "Recyclers"
+    ],
+    "benefitsEyebrow": "Benefits of joining",
+    "benefitsTitle": "What members get",
+    "benefits": [
+      [
+        "A seat in the working groups",
+        "Shape recommendations, guidelines and position papers before they are published."
+      ],
+      [
+        "Regulatory watch",
+        "Monthly tracking of the ESPR, delegated acts and standards, read by the people who must apply them."
+      ],
+      [
+        "A European network",
+        "Industry, research, technology providers, standards bodies and public authorities in one directory."
+      ],
+      [
+        "Pilots and demonstrators",
+        "Test your implementation against others before a customer or a market-surveillance authority does."
+      ]
+    ],
+    "wgEyebrow": "Working groups",
+    "wgTitle": "Ten groups, one ecosystem",
+    "wgLead": "Members choose their groups; each elects its chair and vice-chair and adopts a yearly work plan.",
+    "wgAll": "All working groups",
+    "eventsEyebrow": "Upcoming events",
+    "eventsTitle": "Where the work happens",
+    "eventsAll": "All events",
+    "pubsEyebrow": "Latest publications",
+    "pubsTitle": "From the Knowledge Hub",
+    "pubsAll": "Knowledge Hub",
+    "membersEyebrow": "Members and partners",
+    "membersTitle": "Who is already at the table",
+    "membersNote": "Founding members will be listed here as they are admitted. The profiles shown are illustrative.",
+    "membersAll": "Members directory",
+    "callsEyebrow": "Calls for participation",
+    "callsTitle": "Open calls",
+    "calls": [
+      [
+        "Chairs and vice-chairs",
+        "Each of the ten working groups elects its leadership among its members.",
+        "/working-groups"
+      ],
+      [
+        "Pilot cohort: textiles",
+        "WG4 and WG10 are forming a cohort of textile companies for a shared pilot.",
+        "/working-groups/industrial-adoption-sectoral-implementation"
+      ],
+      [
+        "Propose a working group",
+        "Members may propose new groups to the Board.",
+        "/contact"
+      ]
+    ],
+    "ctaTitle": "Join the association shaping Europe’s product passports.",
+    "ctaText": "Open to companies of every size, universities, research centres, public bodies and qualified individuals.",
+    "ctaButton": "Become a member",
+    "ctaSecondary": "Compare membership options",
+    "newsEyebrow": "News",
+    "newsAll": "All news"
+  },
+  "about": {
+    "title": "About DigiPass:Europe",
+    "lead": "A non-profit technical-scientific association, founded to be Europe’s networking hub for the Digital Product Passport and the interface to the institutions and standards bodies that define it.",
+    "missionTitle": "Mission and vision",
+    "purposeTitle": "Purpose",
+    "roleTitle": "Role",
+    "scopeTitle": "Scope",
+    "objectivesTitle": "Objectives and activities",
+    "objectivesLead": "The statutes list the means by which the association pursues its purpose (§ 3 a). The working groups and services on this site are how they are put into practice.",
+    "governanceTitle": "Governance structure",
+    "governanceLead": "The bodies of the association are defined in § 8 of the statutes. Office holders will be published here once elected; no names are listed before then.",
+    "boardTitle": "Board of Directors",
+    "boardNote": "The Board consists of at least five natural persons, the founding members, plus any further members elected by the General Assembly. Names and functions will be published after the constituent meeting.",
+    "wgLeadershipTitle": "Working-group leadership",
+    "wgLeadershipNote": "Each working group elects a chair and a vice-chair. All positions are currently open.",
+    "statutesTitle": "Statutes",
+    "statutesText": "The Articles of Association (German, with English translation) govern purpose, membership, bodies and dissolution.",
+    "statutesDownload": "Statutes (PDF) — to be published",
+    "conditionsTitle": "Membership conditions",
+    "conditionsLead": "Admission and termination follow § 4, § 6 and § 7 of the statutes.",
+    "admissionTitle": "Admission",
+    "terminationTitle": "Termination",
+    "transparencyTitle": "Transparency",
+    "transparencyLead": "Non-profit status brings obligations. These are the ones the statutes make binding.",
+    "reportsTitle": "Annual reports",
+    "reportsText": "The Board reports to the General Assembly on the previous year’s activities, submits accounts and prepares the budget (§ 9 l). Annual reports will be published here from the first full association year.",
+    "contactTitle": "Contact"
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "The Secretariat answers questions on membership, working groups, events and press.",
+    "general": "General enquiries",
+    "membership": "Membership",
+    "press": "Press",
+    "seat": "Registered office",
+    "formTitle": "Write to us",
+    "name": "Name",
+    "email": "Professional email",
+    "organisation": "Organisation (optional)",
+    "subject": "Subject",
+    "subjects": [
+      "Membership",
+      "Working groups",
+      "Events",
+      "Partnership or sponsorship",
+      "Press",
+      "Other"
+    ],
+    "message": "Message",
+    "consent": "I agree that my data is processed to answer my request (see privacy notice).",
+    "send": "Send",
+    "proposeTitle": "Propose a working group",
+    "proposeText": "Ordinary members may propose new working groups to the Board. Use the form with the subject “Working groups” and describe the scope, expected members and first deliverables."
+  },
+  "navShort": {
+    "about": "About",
+    "membership": "Membership",
+    "workingGroups": "Working groups",
+    "activities": "Activities",
+    "events": "Events",
+    "knowledge": "Knowledge hub",
+    "news": "News",
+    "members": "Members",
+    "contact": "Contact"
+  }
 }

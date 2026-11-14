@@ -7,6 +7,7 @@ import { MobileNav } from "./MobileNav";
 
 export function Header() {
   const t = useTranslations("nav");
+  const s = useTranslations("navShort");
   return (
     <header className="sticky top-0 z-40 border-b border-line bg-white/95 backdrop-blur">
       <div className="container-x relative flex h-18 items-center justify-between gap-6">
@@ -16,7 +17,7 @@ export function Header() {
         <nav className="hidden items-center gap-1 xl:flex" aria-label="Main">
           {NAV.map((item) => (
             <Link key={item.key} href={item.href} className="focus-ring rounded px-2.5 py-2 text-[0.9rem] text-ink-soft transition hover:text-ink">
-              {t(item.key)}
+              {s(item.key)}
             </Link>
           ))}
         </nav>
