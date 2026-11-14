@@ -106,8 +106,15 @@ alter table resources enable row level security;
 alter table invoices enable row level security;
 alter table collaboration_requests enable row level security;
 alter table notifications enable row level security;
+alter table contact_messages enable row level security;
+alter table deletion_requests enable row level security;
+alter table organisation_members enable row level security;
+alter table wg_proposals enable row level security;
+alter table working_groups enable row level security;
+alter table events enable row level security;
+alter table news enable row level security;
 
-create or replace function current_role_of(uid uuid) returns app_role language sql stable as $$ select role from profiles where id = uid $$;
+create or replace function current_role_of(uid uuid) returns app_role language sql stable security definer set search_path = public as $$ select role from profiles where id = uid $$;
 
 create policy "profiles: own read/write" on profiles for all using (id = auth.uid()) with check (id = auth.uid());
 create policy "profiles: members read visible" on profiles for select using (directory_visible and auth.uid() is not null);
@@ -135,3 +142,14 @@ create policy "resources: members" on resources for select using (auth.uid() is 
 create policy "invoices: own" on invoices for select using (membership_id in (select id from memberships where profile_id = auth.uid() or organisation_id in (select organisation_id from profiles where id = auth.uid())));
 create policy "collab: members" on collaboration_requests for all using (auth.uid() is not null) with check (profile_id = auth.uid());
 create policy "notifications: own" on notifications for all using (profile_id = auth.uid());
+
+create policy "contact: insert by anyone" on contact_messages for insert with check (true);
+create policy "contact: admin read" on contact_messages for select using (current_role_of(auth.uid()) = 'admin');
+create policy "deletion: own insert" on deletion_requests for insert with check (profile_id = auth.uid());
+create policy "deletion: admin" on deletion_requests for all using (current_role_of(auth.uid()) = 'admin');
+create policy "orgmembers: own org read" on organisation_members for select using (profile_id = auth.uid() or organisation_id in (select organisation_id from profiles where id = auth.uid()));
+create policy "orgmembers: admin" on organisation_members for all using (current_role_of(auth.uid()) = 'admin');
+create policy "wgprop: members" on wg_proposals for all using (auth.uid() is not null) with check (proposer_id = auth.uid());
+create policy "wg: public read" on working_groups for select using (true);
+create policy "events: public read" on events for select using (true);
+create policy "news: public read" on news for select using (true);
