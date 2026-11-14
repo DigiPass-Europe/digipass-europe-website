@@ -398,5 +398,93 @@
     "privacy": "Les membres contrôlent ce qui est publié. Les membres non listés n’apparaissent pas.",
     "expertsTitle": "Annuaire des experts",
     "expertsText": "Les profils individuels d’experts sont visibles par les membres dans l’espace membre, selon les préférences de publication de chacun."
+  },
+  "join": {
+    "title": "Devenir membre",
+    "lead": "Huit étapes. Les six premières préparent votre demande ; le Conseil l’examine selon le § 4 f des statuts ; le paiement suit l’approbation.",
+    "steps": [
+      "Catégorie",
+      "Vos coordonnées",
+      "Organisation",
+      "Groupes de travail",
+      "Conditions",
+      "Envoi",
+      "Examen",
+      "Paiement"
+    ],
+    "stepOf": "Étape {n} sur {total}",
+    "next": "Continuer",
+    "back": "Retour",
+    "submit": "Envoyer la demande",
+    "s1": {
+      "title": "Choisissez votre catégorie d’adhésion",
+      "text": "Les cotisations sont des propositions en attente d’approbation par les organes de l’association. Le Conseil attribue la catégorie définitive (§ 4 g).",
+      "individual": "Personnes physiques",
+      "organisational": "Organisations",
+      "supporter": "Abonnement"
+    },
+    "s2": {
+      "title": "Vos coordonnées",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Adresse e-mail professionnelle",
+      "position": "Fonction",
+      "organisation": "Organisation",
+      "country": "Pays (code ISO, ex. AT)",
+      "profile": "Profil professionnel",
+      "profileHint": "Formation, expérience et poste actuel. Pour l’adhésion individuelle, le Conseil vérifie les conditions du § 4 b 2 (diplôme pertinent ou ≥ 4 ans d’expérience).",
+      "interests": "Centres d’intérêt"
+    },
+    "s3": {
+      "title": "Votre organisation",
+      "name": "Nom de l’organisation",
+      "website": "Site web",
+      "type": "Type d’organisation",
+      "employees": "Nombre de salariés",
+      "country": "Pays d’établissement (code ISO)",
+      "vat": "Numéro de TVA",
+      "vatHint": "Obligatoire pour les organisations établies dans l’UE.",
+      "mainContact": "Contact principal (nom)",
+      "representatives": "Représentants supplémentaires (nom et e-mail, un par ligne)",
+      "description": "Brève description de l’organisation",
+      "logo": "Logo",
+      "logoHint": "Le téléversement s’active une fois le stockage configuré. En mode démonstration, seul le nom du fichier est enregistré.",
+      "skip": "Sans objet pour les demandes individuelles."
+    },
+    "s4": {
+      "title": "Choisissez vos groupes de travail",
+      "text": "Sélectionnez les groupes auxquels vous souhaitez participer. Modifiable ensuite dans l’espace membre.",
+      "lead": "Je suis intéressé·e par un poste de président·e ou vice-président·e"
+    },
+    "s5": {
+      "title": "Conditions",
+      "conditions": "J’accepte les conditions d’adhésion (statuts § 4–7), y compris le préavis de trois mois pour la démission.",
+      "privacy": "J’ai lu la politique de confidentialité et j’accepte le traitement de mes données pour la procédure d’adhésion.",
+      "statutes": "Je reconnais les statuts et les résolutions des organes de l’association (§ 6 d)."
+    },
+    "s6": {
+      "title": "Vérifier et envoyer",
+      "text": "Vérifiez votre demande. À l’envoi, elle est transmise au Conseil.",
+      "summaryTier": "Catégorie",
+      "summaryWg": "Groupes de travail"
+    },
+    "s7": {
+      "title": "Examen de la demande",
+      "text": "Le Conseil traite la demande dès que deux parrainages sont au dossier, dont un d’un membre du Conseil (§ 4 f). Vous êtes informé·e par écrit de la décision et de la catégorie de cotisation. Le Conseil peut refuser sans motif."
+    },
+    "s8": {
+      "title": "Paiement",
+      "text": "Après approbation, vous recevez une facture au prorata de l’exercice en cours (§ 6 a). Paiement par virement ; paiement par carte via Stripe une fois configuré."
+    },
+    "done": {
+      "title": "Demande reçue",
+      "demo": "Mode démonstration : ce formulaire est entièrement validé mais non connecté à une base de données. Rien n’a été enregistré ni envoyé. Une fois Supabase configuré, les demandes sont sauvegardées et le Conseil est notifié par e-mail.",
+      "live": "Votre demande a été enregistrée. Un e-mail de confirmation a été envoyé à {email}.",
+      "error": "La demande n’a pas pu être enregistrée. Réessayez ou écrivez à membership@digipass-europe.eu."
+    },
+    "errors": {
+      "required": "Veuillez compléter les champs signalés.",
+      "vat": "Le numéro de TVA est obligatoire pour les organisations établies dans l’UE."
+    }
   }
 }

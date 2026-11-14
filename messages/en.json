@@ -398,5 +398,93 @@
     "privacy": "Members control what is published. Unlisted members are not shown.",
     "expertsTitle": "Expert directory",
     "expertsText": "Individual expert profiles are visible to members in the portal, according to each person’s publication preferences."
+  },
+  "join": {
+    "title": "Become a member",
+    "lead": "Eight steps. The first six prepare your application; the Board reviews it under § 4 f of the statutes; payment follows approval.",
+    "steps": [
+      "Category",
+      "Your details",
+      "Organisation",
+      "Working groups",
+      "Conditions",
+      "Submit",
+      "Review",
+      "Payment"
+    ],
+    "stepOf": "Step {n} of {total}",
+    "next": "Continue",
+    "back": "Back",
+    "submit": "Submit application",
+    "s1": {
+      "title": "Select your membership category",
+      "text": "Fees are proposals pending approval by the association’s bodies. The Board assigns the final fee category (§ 4 g).",
+      "individual": "Individuals",
+      "organisational": "Organisations",
+      "supporter": "Subscription"
+    },
+    "s2": {
+      "title": "Your details",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Professional email",
+      "position": "Position",
+      "organisation": "Organisation",
+      "country": "Country (ISO code, e.g. AT)",
+      "profile": "Professional profile",
+      "profileHint": "Education, experience and current role. For individual membership the Board checks the § 4 b 2 requirements (relevant degree or ≥ 4 years’ experience).",
+      "interests": "Areas of interest"
+    },
+    "s3": {
+      "title": "Your organisation",
+      "name": "Organisation name",
+      "website": "Website",
+      "type": "Organisation type",
+      "employees": "Number of employees",
+      "country": "Country of establishment (ISO code)",
+      "vat": "VAT number",
+      "vatHint": "Required for organisations established in the EU.",
+      "mainContact": "Main contact (name)",
+      "representatives": "Additional representatives (name and email, one per line)",
+      "description": "Short organisational description",
+      "logo": "Logo upload",
+      "logoHint": "Upload activates once file storage is configured. In demo mode only the file name is recorded.",
+      "skip": "Not applicable to individual applications."
+    },
+    "s4": {
+      "title": "Select working groups",
+      "text": "Choose the groups you wish to participate in. You can change this later in the member portal.",
+      "lead": "I am interested in a chair or vice-chair position"
+    },
+    "s5": {
+      "title": "Conditions",
+      "conditions": "I accept the membership conditions (statutes § 4–7), including the three-month notice period for resignation.",
+      "privacy": "I have read the privacy notice and agree to the processing of my data for the membership procedure.",
+      "statutes": "I acknowledge the Articles of Association and the resolutions of the association’s bodies (§ 6 d)."
+    },
+    "s6": {
+      "title": "Review and submit",
+      "text": "Check your application. On submission it is forwarded to the Board.",
+      "summaryTier": "Category",
+      "summaryWg": "Working groups"
+    },
+    "s7": {
+      "title": "Application review",
+      "text": "The Board deals with the application once two endorsements are on file, one from a Board member (§ 4 f). You will be informed of the decision and the fee category in writing. The Board may decline without stating reasons."
+    },
+    "s8": {
+      "title": "Payment",
+      "text": "After approval you receive an invoice for the pro-rata fee of the current association year (§ 6 a). Payment by bank transfer; card payment via Stripe once configured."
+    },
+    "done": {
+      "title": "Application received",
+      "demo": "Demo mode: this form is fully validated but not connected to a database. Nothing was stored or sent. Once Supabase is configured, applications are saved and the Board is notified by email.",
+      "live": "Your application has been recorded. A confirmation email has been sent to {email}.",
+      "error": "The application could not be saved. Please try again or write to membership@digipass-europe.eu."
+    },
+    "errors": {
+      "required": "Please complete the highlighted fields.",
+      "vat": "VAT number is required for organisations established in the EU."
+    }
   }
 }
