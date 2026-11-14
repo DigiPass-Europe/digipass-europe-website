@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DigiPass:Europe — association platform
 
-## Getting Started
+Official website and member platform of **DigiPass:Europe**, the European hub for the Digital Product Passport (digipass-europe.eu).
 
-First, run the development server:
+Next.js 16 · TypeScript · Tailwind CSS 4 · next-intl (EN/FR) · Supabase schema · Vercel-ready.
+
+## Run
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev          # http://localhost:3000 → redirects to /en
+npm test             # vitest: content model, filters, validation, roles, i18n parity
+npm run build && npm start
+BASE_URL=http://localhost:3000 npm run check:routes   # every page, both locales
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Without environment variables the site runs in **demo mode**: all pages work, forms validate, and the member portal can be entered with four demonstration roles from `/en/login`. Nothing is stored. See `docs/INTEGRATIONS.md` to connect Supabase, email and Stripe.
 
 ## Deploy on Vercel
+Import the repository, set the variables from `.env.example` (all optional), deploy. Add the `digipass-europe.eu` domain in the Vercel project.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Structure
+```
+src/app/[locale]/        pages (public site, join wizard, login, portal)
+src/app/api/             contact, events, applications (validate → store or demo)
+src/content/             all content as typed EN/FR data (statutes-derived governance, 10 WGs, tiers, services, demo items)
+src/lib/                 db layer, auth (Supabase or signed demo cookie), roles ACL, validation (zod), filters
+messages/                UI strings en/fr (key parity enforced by test)
+supabase/                schema (RLS) and seed
+docs/                    design, plan, integrations, business model
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Content rules
+- The association's name is always **DigiPass:Europe**. Governance text comes from the statutes only; no names before election.
+- Fee tiers are **proposals** (`status: 'proposed'`) until the General Assembly adopts them (§ 10 c 8).
+- Demonstration items carry `illustrative: true` and render an "Illustrative" badge.
+- To edit content, change the files in `src/content/`; to add a language, see `docs/INTEGRATIONS.md`.
+
+## Logo
+`public/brand/` holds the current identity (green colon + European flag). Swap the SVGs to change it site-wide.
