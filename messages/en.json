@@ -194,5 +194,50 @@
     "news": "News",
     "members": "Members",
     "contact": "Contact"
+  },
+  "membership": {
+    "title": "Membership",
+    "lead": "Open to companies of every size, universities, research centres, public bodies, technology providers, associations and qualified individuals. Membership categories are those of the statutes; fee levels are proposals for the Board and the General Assembly.",
+    "proposedBanner": "The fees below are a strategic proposal. They are not adopted prices: the General Assembly sets membership fees and fee categories (statutes § 10 c 8) and the Board assigns each member to a category (§ 4 g). The Board may modify this structure at any time.",
+    "categoriesTitle": "Membership categories under the statutes",
+    "categoriesLead": "Four categories exist (§ 4 a). Every tier on this page is a fee level inside one of them.",
+    "categories": [
+      [
+        "Ordinary members — legal entities (§ 4 b 1)",
+        "Authorities, legal entities and other corporations from Austria or abroad. Only the officially named representative votes: 2 to 4 votes depending on fee category (§ 10 g)."
+      ],
+      [
+        "Ordinary members — individuals (§ 4 b 2)",
+        "Persons with a completed relevant education or at least four years of relevant experience. One vote; eligible for the Board."
+      ],
+      [
+        "Extraordinary members (§ 4 c)",
+        "Students and pupils of higher educational institutions. May attend the General Assembly; no vote."
+      ],
+      [
+        "Corresponding and honorary members (§ 4 d–e)",
+        "Recognised experts, and persons honoured for financial support or many years of merit. Honorary members vote and pay no fee."
+      ]
+    ],
+    "individualTitle": "Individual membership",
+    "organisationalTitle": "Organisational membership",
+    "supporterNote": "Supporter is a subscription, not a membership category.",
+    "colTier": "Tier",
+    "colFee": "Annual fee (proposed)",
+    "colCategory": "Statutory category",
+    "colVotes": "Governance rights",
+    "benefitsTitle": "Membership benefits",
+    "benefitsLead": "Benefits are what the association offers; governance rights come from the statutes alone. Sponsorship and partnership never add votes or control.",
+    "colAll": "All members",
+    "colFull": "Full individual",
+    "colOrg": "Organisational",
+    "colStrategic": "Strategic partner",
+    "governanceMark": "Governance right under the statutes",
+    "howTitle": "How admission works",
+    "howLead": "The statutes set the procedure (§ 4 f–g, § 6 a). The online application prepares the file; the Board decides.",
+    "feesInclude": "Fees cover the association year (calendar year); new members pay pro rata by commenced month (§ 6 a). Honorary members are exempt (§ 6 b).",
+    "cta": "Start your application",
+    "compare": "Download the comparison (PDF) — to be published",
+    "questions": "Questions about which tier fits? Write to"
   }
 }

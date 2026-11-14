@@ -194,5 +194,50 @@
     "news": "Actualités",
     "members": "Membres",
     "contact": "Contact"
+  },
+  "membership": {
+    "title": "Adhésion",
+    "lead": "Ouverte aux entreprises de toute taille, universités, centres de recherche, organismes publics, fournisseurs de technologies, associations et personnes qualifiées. Les catégories d’adhésion sont celles des statuts ; les niveaux de cotisation sont des propositions pour le Conseil et l’Assemblée générale.",
+    "proposedBanner": "Les cotisations ci-dessous sont une proposition stratégique. Ce ne sont pas des prix adoptés : l’Assemblée générale fixe les cotisations et catégories (statuts § 10 c 8) et le Conseil affecte chaque membre à une catégorie (§ 4 g). Le Conseil peut modifier cette structure à tout moment.",
+    "categoriesTitle": "Catégories d’adhésion selon les statuts",
+    "categoriesLead": "Quatre catégories existent (§ 4 a). Chaque niveau de cette page est un niveau de cotisation au sein de l’une d’elles.",
+    "categories": [
+      [
+        "Membres ordinaires — personnes morales (§ 4 b 1)",
+        "Autorités, personnes morales et autres collectivités d’Autriche ou de l’étranger. Seul le représentant officiellement désigné vote : 2 à 4 voix selon la catégorie de cotisation (§ 10 g)."
+      ],
+      [
+        "Membres ordinaires — personnes physiques (§ 4 b 2)",
+        "Personnes ayant une formation pertinente achevée ou au moins quatre ans d’expérience pertinente. Une voix ; éligibles au Conseil."
+      ],
+      [
+        "Membres extraordinaires (§ 4 c)",
+        "Étudiant·es et élèves d’établissements supérieurs. Peuvent assister à l’Assemblée générale ; pas de vote."
+      ],
+      [
+        "Membres correspondants et d’honneur (§ 4 d–e)",
+        "Experts reconnus, et personnes honorées pour leur soutien financier ou leurs mérites de longue date. Les membres d’honneur votent et ne paient pas de cotisation."
+      ]
+    ],
+    "individualTitle": "Adhésion individuelle",
+    "organisationalTitle": "Adhésion des organisations",
+    "supporterNote": "Sympathisant·e est un abonnement, pas une catégorie d’adhésion.",
+    "colTier": "Niveau",
+    "colFee": "Cotisation annuelle (proposée)",
+    "colCategory": "Catégorie statutaire",
+    "colVotes": "Droits de gouvernance",
+    "benefitsTitle": "Avantages de l’adhésion",
+    "benefitsLead": "Les avantages sont ce que l’association offre ; les droits de gouvernance viennent des seuls statuts. Le parrainage et le partenariat n’ajoutent jamais de voix ni de contrôle.",
+    "colAll": "Tous les membres",
+    "colFull": "Individuel",
+    "colOrg": "Organisation",
+    "colStrategic": "Partenaire stratégique",
+    "governanceMark": "Droit de gouvernance selon les statuts",
+    "howTitle": "Comment fonctionne l’admission",
+    "howLead": "Les statuts fixent la procédure (§ 4 f–g, § 6 a). La demande en ligne prépare le dossier ; le Conseil décide.",
+    "feesInclude": "Les cotisations couvrent l’exercice (année civile) ; les nouveaux membres paient au prorata par mois commencé (§ 6 a). Les membres d’honneur en sont exemptés (§ 6 b).",
+    "cta": "Commencer votre demande",
+    "compare": "Télécharger le comparatif (PDF) — à publier",
+    "questions": "Une question sur le niveau adapté ? Écrivez à"
   }
 }
