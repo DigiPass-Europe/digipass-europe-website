@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "membership": "Membership",
+    "workingGroups": "Working groups",
+    "activities": "Activities & projects",
+    "events": "Events",
+    "knowledge": "Knowledge hub",
+    "news": "News",
+    "members": "Members directory",
+    "contact": "Contact",
+    "join": "Become a member",
+    "login": "Member login",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "footer": {
+    "tagline": "The European hub for the Digital Product Passport.",
+    "legal": "DigiPass:Europe is a non-profit technical-scientific association under Austrian law, registered office Wiener Neustadt. Content marked “Illustrative” is demonstration content and not an official position of the association.",
+    "association": "Association",
+    "participate": "Participate",
+    "resources": "Resources",
+    "statutes": "Statutes",
+    "governance": "Governance",
+    "privacy": "Privacy notice",
+    "imprint": "Legal notice",
+    "newsletter": "Newsletter",
+    "newsletterText": "Regulatory updates, working-group news and events, once a month.",
+    "emailPlaceholder": "Professional email",
+    "subscribe": "Subscribe",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "illustrative": "Illustrative",
+    "proposed": "Proposed — subject to Board approval",
+    "membersOnly": "Members only",
+    "readMore": "Read more",
+    "learnMore": "Learn more",
+    "demoNotice": "Demo mode: this site is not connected to a database yet. Nothing you enter here is stored or sent.",
+    "backTo": "Back to {name}",
+    "open": "Position open",
+    "openDesc": "Elected by the group's members once constituted"
+  },
+  "locale": { "en": "English", "fr": "Français", "switch": "Language" }
+}

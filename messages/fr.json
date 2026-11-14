@@ -1,0 +1,46 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "membership": "Adhésion",
+    "workingGroups": "Groupes de travail",
+    "activities": "Activités & projets",
+    "events": "Événements",
+    "knowledge": "Centre de ressources",
+    "news": "Actualités",
+    "members": "Annuaire des membres",
+    "contact": "Contact",
+    "join": "Devenir membre",
+    "login": "Espace membre",
+    "menu": "Menu",
+    "close": "Fermer"
+  },
+  "footer": {
+    "tagline": "Le pôle européen du passeport numérique des produits.",
+    "legal": "DigiPass:Europe est une association technico-scientifique à but non lucratif de droit autrichien, dont le siège est à Wiener Neustadt. Les contenus marqués « Illustratif » sont des contenus de démonstration et ne constituent pas une position officielle de l’association.",
+    "association": "Association",
+    "participate": "Participer",
+    "resources": "Ressources",
+    "statutes": "Statuts",
+    "governance": "Gouvernance",
+    "privacy": "Politique de confidentialité",
+    "imprint": "Mentions légales",
+    "newsletter": "Lettre d’information",
+    "newsletterText": "Veille réglementaire, actualités des groupes de travail et événements, une fois par mois.",
+    "emailPlaceholder": "Adresse e-mail professionnelle",
+    "subscribe": "S’abonner",
+    "rights": "Tous droits réservés."
+  },
+  "common": {
+    "illustrative": "Illustratif",
+    "proposed": "Proposition — soumise à l’approbation du Conseil",
+    "membersOnly": "Réservé aux membres",
+    "readMore": "Lire la suite",
+    "learnMore": "En savoir plus",
+    "demoNotice": "Mode démonstration : ce site n’est pas encore connecté à une base de données. Rien de ce que vous saisissez ici n’est enregistré ni envoyé.",
+    "backTo": "Retour à {name}",
+    "open": "Poste à pourvoir",
+    "openDesc": "Élu·e par les membres du groupe une fois celui-ci constitué"
+  },
+  "locale": { "en": "English", "fr": "Français", "switch": "Langue" }
+}

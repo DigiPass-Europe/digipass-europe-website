@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  --eu-blue: #003399;
+  --cycle-green: #1e8a5a;
+  --cycle-green-deep: #176c47;
+  --ink: #0b2b3a;
+  --ink-soft: #3d5361;
+  --paper: #f6f5f1;
+  --paper-deep: #ebe9e2;
+  --line: #d9dce3;
+  --gold: #ffcc00;
+}
+
+@theme inline {
+  --color-blue: var(--eu-blue);
+  --color-green: var(--cycle-green);
+  --color-green-deep: var(--cycle-green-deep);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-paper: var(--paper);
+  --color-paper-deep: var(--paper-deep);
+  --color-line: var(--line);
+  --color-gold: var(--gold);
+  --font-sans: var(--font-instrument), ui-sans-serif, system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  background: #ffffff;
+  color: var(--ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+::selection { background: var(--eu-blue); color: #fff; }
+
+@utility container-x {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 80rem;
+  padding-inline: 1.25rem;
+  @media (min-width: 640px) { padding-inline: 2rem; }
+  @media (min-width: 1024px) { padding-inline: 2.5rem; }
+}
+@utility eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--cycle-green-deep);
+}
+@utility rule-top { border-top: 1px solid var(--line); }
+@utility focus-ring {
+  outline: 2px solid transparent;
+  &:focus-visible { outline: 2px solid var(--eu-blue); outline-offset: 2px; }
+}
