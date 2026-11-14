@@ -1,0 +1,20 @@
+import { setRequestLocale } from "next-intl/server";
+import { PageHero, Section } from "@/components/ui/Section";
+import { site } from "@/content";
+export default async function Privacy({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params; setRequestLocale(locale); const fr = locale === "fr";
+  return (<><PageHero title={fr ? "Politique de confidentialité" : "Privacy notice"} lead={fr ? "Comment DigiPass:Europe traite les données personnelles (RGPD / DSGVO)." : "How DigiPass:Europe processes personal data (GDPR / DSGVO)."} />
+    <Section><div className="prose max-w-3xl text-sm leading-relaxed text-ink-soft">
+      <p><strong>{fr ? "Responsable du traitement" : "Controller"}:</strong> DigiPass:Europe, {site.address}, {site.seat}. {site.email}</p>
+      <h2 className="mt-6 font-semibold text-ink">{fr ? "Finalités et bases juridiques" : "Purposes and legal bases"}</h2>
+      <ul className="list-disc pl-5"><li>{fr ? "Procédure d’adhésion et gestion des membres (exécution du contrat, art. 6 (1) b)." : "Membership procedure and member administration (performance of contract, Art. 6(1)(b))."}</li><li>{fr ? "Inscriptions aux événements et demandes de contact (art. 6 (1) b et f)." : "Event registrations and contact requests (Art. 6(1)(b) and (f))."}</li><li>{fr ? "Lettre d’information (consentement, art. 6 (1) a, révocable à tout moment)." : "Newsletter (consent, Art. 6(1)(a), revocable at any time)."}</li><li>{fr ? "Annuaire des membres et profils d’experts : publication uniquement selon les préférences de chaque membre." : "Members directory and expert profiles: published only according to each member’s preferences."}</li></ul>
+      <h2 className="mt-6 font-semibold text-ink">{fr ? "Durées de conservation" : "Retention"}</h2>
+      <p>{fr ? "Données d’adhésion : durée de l’adhésion plus 7 ans (obligations comptables, § 132 BAO). Demandes non abouties : 12 mois. Inscriptions aux événements : 24 mois. Lettre d’information : jusqu’au retrait du consentement." : "Membership data: duration of membership plus 7 years (accounting obligations, § 132 BAO). Unsuccessful applications: 12 months. Event registrations: 24 months. Newsletter: until consent is withdrawn."}</p>
+      <h2 className="mt-6 font-semibold text-ink">{fr ? "Destinataires et sous-traitants" : "Recipients and processors"}</h2>
+      <p>{fr ? "Hébergement et base de données (Vercel, Supabase — région UE), e-mail transactionnel et prestataire de paiement, une fois configurés ; liste tenue à jour dans docs/INTEGRATIONS.md. Aucune vente de données." : "Hosting and database (Vercel, Supabase — EU region), transactional email and payment provider once configured; current list maintained in docs/INTEGRATIONS.md. No sale of data."}</p>
+      <h2 className="mt-6 font-semibold text-ink">{fr ? "Vos droits" : "Your rights"}</h2>
+      <p>{fr ? "Accès, rectification, effacement, limitation, portabilité, opposition et retrait du consentement : écrivez à " : "Access, rectification, erasure, restriction, portability, objection and withdrawal of consent: write to "}<a className="text-blue" href={`mailto:${site.email}`}>{site.email}</a>. {fr ? "Les membres peuvent demander la suppression de leur compte dans l’espace membre. Autorité de contrôle : Datenschutzbehörde, Vienne." : "Members can request account deletion in the member portal. Supervisory authority: Datenschutzbehörde, Vienna."}</p>
+      <h2 className="mt-6 font-semibold text-ink">Cookies</h2>
+      <p>{fr ? "Ce site n’utilise que des cookies strictement nécessaires (langue, session). Aucun traceur publicitaire." : "This site uses strictly necessary cookies only (language, session). No advertising trackers."}</p>
+    </div></Section></>);
+}

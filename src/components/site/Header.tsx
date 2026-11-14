@@ -16,17 +16,17 @@ export function Header() {
         </Link>
         <nav className="hidden items-center gap-1 xl:flex" aria-label="Main">
           {NAV.map((item) => (
-            <Link key={item.key} href={item.href} className="focus-ring rounded px-2.5 py-2 text-[0.9rem] text-ink-soft transition hover:text-ink">
+            <Link key={item.key} href={item.href} className="focus-ring whitespace-nowrap rounded px-2 py-2 text-[0.875rem] text-ink-soft transition hover:text-ink">
               {s(item.key)}
             </Link>
           ))}
         </nav>
         <div className="hidden items-center gap-3 xl:flex">
           <LocaleSwitcher />
-          <Link href="/login" className="focus-ring rounded px-2 py-2 text-sm text-ink-soft hover:text-ink">
+          <Link href="/login" className="focus-ring whitespace-nowrap rounded px-2 py-2 text-sm text-ink-soft hover:text-ink">
             {t("login")}
           </Link>
-          <Link href="/join" className="focus-ring inline-flex h-10 items-center rounded-md bg-blue px-4 text-sm font-semibold text-white transition hover:bg-[#002a80]">
+          <Link href="/join" className="focus-ring inline-flex h-10 items-center whitespace-nowrap rounded-md bg-blue px-4 text-sm font-semibold text-white transition hover:bg-[#002a80]">
             {t("join")}
           </Link>
         </div>

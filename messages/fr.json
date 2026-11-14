@@ -486,5 +486,151 @@
       "required": "Veuillez compléter les champs signalés.",
       "vat": "Le numéro de TVA est obligatoire pour les organisations établies dans l’UE."
     }
+  },
+  "login": {
+    "title": "Espace membre",
+    "lead": "Accédez à l’espace membre : profil, adhésion, groupes de travail, événements, documents et opportunités de collaboration.",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "signIn": "Se connecter",
+    "magic": "M’envoyer un lien de connexion",
+    "liveNote": "L’authentification est assurée par Supabase Auth (e-mail + mot de passe ou lien magique).",
+    "demoTitle": "Mode démonstration",
+    "demoText": "Aucun fournisseur d’authentification n’est encore configuré ; l’espace membre peut être exploré avec des rôles de démonstration. Rien n’est enregistré.",
+    "demoAs": "Entrer en tant que",
+    "roles": {
+      "member": "Membre",
+      "wg-chair": "Président·e de groupe de travail",
+      "org-admin": "Administrateur·rice d’organisation",
+      "admin": "Administrateur·rice de l’association"
+    },
+    "notMember": "Pas encore membre ?",
+    "apply": "Demander l’adhésion"
+  },
+  "portal": {
+    "title": "Espace membre",
+    "welcome": "Bienvenue, {name}",
+    "demoBanner": "Espace de démonstration — connecté·e en tant que « {role} ». Les données sont illustratives et rien n’est enregistré.",
+    "logout": "Se déconnecter",
+    "nav": {
+      "dashboard": "Tableau de bord",
+      "profile": "Profil",
+      "membership": "Adhésion & factures",
+      "workingGroups": "Groupes de travail",
+      "events": "Événements",
+      "documents": "Documents",
+      "collaboration": "Collaboration",
+      "organisation": "Organisation",
+      "admin": "Administration"
+    },
+    "cards": {
+      "status": "Statut d’adhésion",
+      "renewal": "Date de renouvellement",
+      "wgs": "Vos groupes de travail",
+      "meetings": "Prochaines réunions",
+      "registrations": "Inscriptions aux événements",
+      "documents": "Documents réservés",
+      "collab": "Opportunités de collaboration",
+      "notifications": "Notifications",
+      "newsletter": "Préférences de lettre d’information"
+    },
+    "status": {
+      "active": "Active",
+      "pending": "En attente de décision du Conseil",
+      "expired": "Expirée"
+    },
+    "profile": {
+      "title": "Profil personnel",
+      "visibility": "Visibilité dans l’annuaire",
+      "visible": "Montrer mon profil d’expert aux membres",
+      "hidden": "Garder mon profil privé",
+      "expertise": "Expertise",
+      "save": "Enregistrer",
+      "deleteTitle": "Suppression du compte",
+      "deleteText": "Vous pouvez demander la suppression de votre compte et de vos données. Les obligations d’adhésion de l’exercice en cours demeurent (§ 7 b). La suppression est traitée par le Secrétariat sous 30 jours.",
+      "deleteBtn": "Demander la suppression du compte"
+    },
+    "membership": {
+      "title": "Adhésion & factures",
+      "category": "Catégorie",
+      "tier": "Niveau de cotisation",
+      "votes": "Voix à l’Assemblée générale",
+      "since": "Membre depuis",
+      "renewal": "Renouvellement",
+      "invoices": "Factures et historique des paiements",
+      "invoice": "Facture",
+      "amount": "Montant",
+      "paid": "Payée",
+      "open": "Ouverte",
+      "download": "PDF",
+      "renewalNotice": "Les rappels de renouvellement sont envoyés 60 et 30 jours avant l’échéance une fois l’e-mail configuré."
+    },
+    "wg": {
+      "title": "Groupes de travail",
+      "mine": "Groupes auxquels vous participez",
+      "join": "Rejoindre un autre groupe",
+      "leave": "Quitter",
+      "manage": "Gérer (présidence)",
+      "members": "membres",
+      "nextMeeting": "Prochaine réunion",
+      "minutes": "Comptes rendus et projets",
+      "propose": "Proposer un nouveau groupe de travail",
+      "leadership": "Manifester son intérêt pour un poste de direction"
+    },
+    "events": {
+      "title": "Événements",
+      "registered": "Vos inscriptions",
+      "browse": "Voir tous les événements",
+      "ticket": "Inscrit·e"
+    },
+    "docs": {
+      "title": "Documents réservés aux membres",
+      "text": "Ressources réservées du centre de ressources, procès-verbaux de l’Assemblée générale et projets des groupes de travail."
+    },
+    "collab": {
+      "title": "Opportunités de collaboration",
+      "text": "Demandes de mise en relation d’autres membres et consortiums en formation.",
+      "post": "Publier une demande",
+      "items": [
+        [
+          "Partenaire recherché : pilote DPP textile (Horizon Europe)",
+          "Consortium en formation ; recherche une marque PME et un recycleur.",
+          "WG4"
+        ],
+        [
+          "Fournisseur recherché : résolveur pour produits de construction",
+          "Fabricant recherche un résolveur GS1 Digital Link hébergé dans l’UE.",
+          "WG2"
+        ],
+        [
+          "Collaboration de recherche : validation des données assistée par IA",
+          "Groupe universitaire recherche des jeux de données industriels.",
+          "WG8"
+        ]
+      ]
+    },
+    "org": {
+      "title": "Tableau de bord de l’organisation",
+      "reps": "Représentants autorisés",
+      "addRep": "Ajouter un représentant",
+      "seats": "Places événements incluses",
+      "profile": "Profil public dans l’annuaire",
+      "edit": "Modifier le profil",
+      "voting": "Représentant votant",
+      "votes": "voix"
+    },
+    "admin": {
+      "title": "Administration",
+      "queue": "Demandes d’adhésion",
+      "approve": "Approuver",
+      "reject": "Refuser",
+      "endorse": "Enregistrer un parrainage",
+      "endorsements": "Parrainages",
+      "members": "Membres",
+      "events": "Inscriptions aux événements",
+      "content": "Contenu",
+      "contentText": "Actualités, ressources et événements sont des fichiers de données typés dans le dépôt. Un CMS pourra être connecté plus tard ; voir docs/INTEGRATIONS.md.",
+      "demoAction": "Mode démonstration : cette action n’est pas exécutée."
+    }
   }
 }

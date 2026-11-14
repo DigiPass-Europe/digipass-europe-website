@@ -486,5 +486,151 @@
       "required": "Please complete the highlighted fields.",
       "vat": "VAT number is required for organisations established in the EU."
     }
+  },
+  "login": {
+    "title": "Member login",
+    "lead": "Access the member portal: profile, membership, working groups, events, documents and collaboration opportunities.",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "magic": "Send me a sign-in link",
+    "liveNote": "Authentication is handled by Supabase Auth (email + password or magic link).",
+    "demoTitle": "Demo mode",
+    "demoText": "No authentication provider is configured yet, so the portal can be explored with demonstration roles. Nothing is stored.",
+    "demoAs": "Enter as",
+    "roles": {
+      "member": "Member",
+      "wg-chair": "Working-group chair",
+      "org-admin": "Organisation administrator",
+      "admin": "Association administrator"
+    },
+    "notMember": "Not a member yet?",
+    "apply": "Apply for membership"
+  },
+  "portal": {
+    "title": "Member portal",
+    "welcome": "Welcome, {name}",
+    "demoBanner": "Demo portal — signed in as “{role}”. Data shown is illustrative and nothing is saved.",
+    "logout": "Sign out",
+    "nav": {
+      "dashboard": "Dashboard",
+      "profile": "Profile",
+      "membership": "Membership & invoices",
+      "workingGroups": "Working groups",
+      "events": "Events",
+      "documents": "Documents",
+      "collaboration": "Collaboration",
+      "organisation": "Organisation",
+      "admin": "Administration"
+    },
+    "cards": {
+      "status": "Membership status",
+      "renewal": "Renewal date",
+      "wgs": "Your working groups",
+      "meetings": "Upcoming meetings",
+      "registrations": "Event registrations",
+      "documents": "Member-only documents",
+      "collab": "Collaboration opportunities",
+      "notifications": "Notifications",
+      "newsletter": "Newsletter preferences"
+    },
+    "status": {
+      "active": "Active",
+      "pending": "Pending Board decision",
+      "expired": "Expired"
+    },
+    "profile": {
+      "title": "Personal profile",
+      "visibility": "Directory visibility",
+      "visible": "Show my expert profile to members",
+      "hidden": "Keep my profile private",
+      "expertise": "Expertise",
+      "save": "Save changes",
+      "deleteTitle": "Account deletion",
+      "deleteText": "You can request deletion of your account and personal data. Membership obligations for the current association year remain (§ 7 b). Deletion is processed by the Secretariat within 30 days.",
+      "deleteBtn": "Request account deletion"
+    },
+    "membership": {
+      "title": "Membership & invoices",
+      "category": "Category",
+      "tier": "Fee tier",
+      "votes": "Votes at the General Assembly",
+      "since": "Member since",
+      "renewal": "Renewal",
+      "invoices": "Invoices and payment history",
+      "invoice": "Invoice",
+      "amount": "Amount",
+      "paid": "Paid",
+      "open": "Open",
+      "download": "PDF",
+      "renewalNotice": "Renewal reminders are sent 60 and 30 days before the renewal date once email is configured."
+    },
+    "wg": {
+      "title": "Working groups",
+      "mine": "Groups you participate in",
+      "join": "Join another group",
+      "leave": "Leave",
+      "manage": "Manage (chair)",
+      "members": "members",
+      "nextMeeting": "Next meeting",
+      "minutes": "Minutes and drafts",
+      "propose": "Propose a new working group",
+      "leadership": "Express interest in a leadership position"
+    },
+    "events": {
+      "title": "Events",
+      "registered": "Your registrations",
+      "browse": "Browse all events",
+      "ticket": "Registered"
+    },
+    "docs": {
+      "title": "Member-only documents",
+      "text": "Resources flagged members-only in the Knowledge Hub, General Assembly minutes and working-group drafts."
+    },
+    "collab": {
+      "title": "Collaboration opportunities",
+      "text": "Brokerage requests from other members and consortia in formation.",
+      "post": "Post a request",
+      "items": [
+        [
+          "Partner sought: textile DPP pilot (Horizon Europe)",
+          "Consortium forming; looking for an SME brand and a recycler.",
+          "WG4"
+        ],
+        [
+          "Technology provider sought: resolver for construction products",
+          "Manufacturer seeks a GS1 Digital Link resolver with EU hosting.",
+          "WG2"
+        ],
+        [
+          "Research collaboration: AI-assisted data validation",
+          "University group seeks industrial datasets.",
+          "WG8"
+        ]
+      ]
+    },
+    "org": {
+      "title": "Organisation dashboard",
+      "reps": "Authorised representatives",
+      "addRep": "Add representative",
+      "seats": "Event seats included",
+      "profile": "Public directory profile",
+      "edit": "Edit profile",
+      "voting": "Voting representative",
+      "votes": "votes"
+    },
+    "admin": {
+      "title": "Administration",
+      "queue": "Membership applications",
+      "approve": "Approve",
+      "reject": "Reject",
+      "endorse": "Record endorsement",
+      "endorsements": "Endorsements",
+      "members": "Members",
+      "events": "Event registrations",
+      "content": "Content",
+      "contentText": "News, resources and events are typed data files in the repository. A CMS can be connected later; see docs/INTEGRATIONS.md.",
+      "demoAction": "Demo mode: this action is not executed."
+    }
   }
 }
