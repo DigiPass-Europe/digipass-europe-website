@@ -239,5 +239,38 @@
     "cta": "Commencer votre demande",
     "compare": "Télécharger le comparatif (PDF) — à publier",
     "questions": "Une question sur le niveau adapté ? Écrivez à"
+  },
+  "wg": {
+    "title": "Groupes de travail",
+    "lead": "Le cœur de l’association. Dix groupes couvrent les dimensions réglementaire, technique, sectorielle, économique et humaine du passeport numérique des produits. Les membres peuvent rejoindre plusieurs groupes, se porter candidats à la présidence ou vice-présidence et proposer de nouveaux groupes au Conseil.",
+    "mission": "Mission",
+    "objectives": "Objectifs",
+    "activities": "Activités",
+    "deliverables": "Livrables",
+    "sectors": "Secteurs initiaux",
+    "leadership": "Direction",
+    "chair": "Président·e",
+    "viceChair": "Vice-président·e",
+    "members": "Membres participants",
+    "membersNote": "Liste des membres visible dans l’espace membre une fois le groupe constitué.",
+    "projects": "Projets en cours",
+    "publications": "Publications et livrables",
+    "meetings": "Prochaines réunions",
+    "join": "Rejoindre ce groupe",
+    "joinText": "Les membres ordinaires participent pleinement ; les membres extraordinaires peuvent participer aux groupes éligibles. Non-membres : commencez par une demande d’adhésion.",
+    "propose": "Proposer un nouveau groupe de travail",
+    "leadInterest": "Manifester son intérêt pour un poste de direction",
+    "status": {
+      "active": "Actif",
+      "planned": "Prévu"
+    },
+    "mode": {
+      "online": "En ligne",
+      "hybrid": "Hybride",
+      "onsite": "Sur site"
+    },
+    "noPubs": "Aucun livrable publié pour l’instant. Les ressources liées figurent dans le centre de ressources.",
+    "viewAll": "Tous les groupes de travail",
+    "related": "Groupes liés"
   }
 }

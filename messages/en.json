@@ -239,5 +239,38 @@
     "cta": "Start your application",
     "compare": "Download the comparison (PDF) — to be published",
     "questions": "Questions about which tier fits? Write to"
+  },
+  "wg": {
+    "title": "Working groups",
+    "lead": "The core of the association. Ten groups cover the regulatory, technical, sectoral, economic and human dimensions of the Digital Product Passport. Members may join several groups, stand for chair or vice-chair, and propose new groups to the Board.",
+    "mission": "Mission",
+    "objectives": "Objectives",
+    "activities": "Activities",
+    "deliverables": "Deliverables",
+    "sectors": "Initial sectors",
+    "leadership": "Leadership",
+    "chair": "Chair",
+    "viceChair": "Vice-Chair",
+    "members": "Participating members",
+    "membersNote": "Member list visible in the member portal once the group is constituted.",
+    "projects": "Current projects",
+    "publications": "Publications and deliverables",
+    "meetings": "Upcoming meetings",
+    "join": "Join this group",
+    "joinText": "Ordinary members participate fully; extraordinary members may participate in eligible groups. Non-members: start with a membership application.",
+    "propose": "Propose a new working group",
+    "leadInterest": "Express interest in a leadership position",
+    "status": {
+      "active": "Active",
+      "planned": "Planned"
+    },
+    "mode": {
+      "online": "Online",
+      "hybrid": "Hybrid",
+      "onsite": "On site"
+    },
+    "noPubs": "No deliverables published yet. Related resources appear in the Knowledge Hub.",
+    "viewAll": "All working groups",
+    "related": "Related groups"
   }
 }
