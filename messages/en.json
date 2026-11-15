@@ -138,9 +138,9 @@
     "roleTitle": "Role",
     "scopeTitle": "Scope",
     "objectivesTitle": "Objectives and activities",
-    "objectivesLead": "The statutes list the means by which the association pursues its purpose (§ 3 a). The working groups and services on this site are how they are put into practice.",
+    "objectivesLead": "The statutes list the means by which the association pursues its purpose. The working groups and services on this site are how they are put into practice.",
     "governanceTitle": "Governance structure",
-    "governanceLead": "The bodies of the association are defined in § 8 of the statutes. Office holders will be published here once elected; no names are listed before then.",
+    "governanceLead": "The bodies of the association are defined in the statutes. Office holders will be published here once elected; no names are listed before then.",
     "boardTitle": "Board of Directors",
     "boardNote": "The Board consists of at least five natural persons, the founding members, plus any further members elected by the General Assembly. Names and functions will be published after the constituent meeting.",
     "wgLeadershipTitle": "Working-group leadership",
@@ -149,13 +149,13 @@
     "statutesText": "The Articles of Association (German, with English translation) govern purpose, membership, bodies and dissolution.",
     "statutesDownload": "Statutes (PDF) — to be published",
     "conditionsTitle": "Membership conditions",
-    "conditionsLead": "Admission and termination follow § 4, § 6 and § 7 of the statutes.",
+    "conditionsLead": "Admission and termination follow the statutes.",
     "admissionTitle": "Admission",
     "terminationTitle": "Termination",
     "transparencyTitle": "Transparency",
     "transparencyLead": "Non-profit status brings obligations. These are the ones the statutes make binding.",
     "reportsTitle": "Annual reports",
-    "reportsText": "The Board reports to the General Assembly on the previous year’s activities, submits accounts and prepares the budget (§ 9 l). Annual reports will be published here from the first full association year.",
+    "reportsText": "The Board reports to the General Assembly on the previous year’s activities, submits accounts and prepares the budget. Annual reports will be published here from the first full association year.",
     "contactTitle": "Contact"
   },
   "contact": {
@@ -198,24 +198,24 @@
   "membership": {
     "title": "Membership",
     "lead": "Open to companies of every size, universities, research centres, public bodies, technology providers, associations and qualified individuals. Membership categories are those of the statutes; fee levels are proposals for the Board and the General Assembly.",
-    "proposedBanner": "The fees below are a strategic proposal. They are not adopted prices: the General Assembly sets membership fees and fee categories (statutes § 10 c 8) and the Board assigns each member to a category (§ 4 g). The Board may modify this structure at any time.",
+    "proposedBanner": "The fees below are a strategic proposal. They are not adopted prices: the General Assembly sets membership fees and fee categories and the Board assigns each member to a category. The Board may modify this structure at any time.",
     "categoriesTitle": "Membership categories under the statutes",
-    "categoriesLead": "Four categories exist (§ 4 a). Every tier on this page is a fee level inside one of them.",
+    "categoriesLead": "Four categories exist. Every tier on this page is a fee level inside one of them.",
     "categories": [
       [
-        "Ordinary members — legal entities (§ 4 b 1)",
-        "Authorities, legal entities and other corporations from Austria or abroad. Only the officially named representative votes: 2 to 4 votes depending on fee category (§ 10 g)."
+        "Ordinary members — legal entities",
+        "Authorities, legal entities and other corporations from Austria or abroad. Only the officially named representative votes: 2 to 4 votes depending on fee category."
       ],
       [
-        "Ordinary members — individuals (§ 4 b 2)",
+        "Ordinary members — individuals",
         "Persons with a completed relevant education or at least four years of relevant experience. One vote; eligible for the Board."
       ],
       [
-        "Extraordinary members (§ 4 c)",
+        "Extraordinary members",
         "Students and pupils of higher educational institutions. May attend the General Assembly; no vote."
       ],
       [
-        "Corresponding and honorary members (§ 4 d–e)",
+        "Corresponding and honorary members",
         "Recognised experts, and persons honoured for financial support or many years of merit. Honorary members vote and pay no fee."
       ]
     ],
@@ -234,11 +234,12 @@
     "colStrategic": "Strategic partner",
     "governanceMark": "Governance right under the statutes",
     "howTitle": "How admission works",
-    "howLead": "The statutes set the procedure (§ 4 f–g, § 6 a). The online application prepares the file; the Board decides.",
-    "feesInclude": "Fees cover the association year (calendar year); new members pay pro rata by commenced month (§ 6 a). Honorary members are exempt (§ 6 b).",
+    "howLead": "The statutes set the procedure. The online application prepares the file; the Board decides.",
+    "feesInclude": "Fees cover the association year (calendar year); new members pay pro rata by commenced month. Honorary members are exempt.",
     "cta": "Start your application",
     "compare": "Download the comparison (PDF) — to be published",
-    "questions": "Questions about which tier fits? Write to"
+    "questions": "Questions about which tier fits? Write to",
+    "governanceShort": "Governance"
   },
   "wg": {
     "title": "Working groups",
@@ -296,7 +297,7 @@
     },
     "priority": "Priority",
     "projectsTitle": "Projects",
-    "projectsText": "Research and innovation projects, EU-funded collaborative initiatives and contract work are carried out under § 3 a 7 and § 3 a 15 of the statutes. The project register will be published here as projects start.",
+    "projectsText": "Research and innovation projects, EU-funded collaborative initiatives and contract work are carried out within the framework of the statutes. The project register will be published here as projects start.",
     "businessTitle": "Financial model",
     "businessText": "How the association funds itself, and the limits set by its non-profit status, are described in the business-model note.",
     "businessLink": "Read the financial model"
@@ -401,7 +402,7 @@
   },
   "join": {
     "title": "Become a member",
-    "lead": "Eight steps. The first six prepare your application; the Board reviews it under § 4 f of the statutes; payment follows approval.",
+    "lead": "Eight steps. The first six prepare your application; the Board reviews it as set out in the statutes; payment follows approval.",
     "steps": [
       "Category",
       "Your details",
@@ -418,7 +419,7 @@
     "submit": "Submit application",
     "s1": {
       "title": "Select your membership category",
-      "text": "Fees are proposals pending approval by the association’s bodies. The Board assigns the final fee category (§ 4 g).",
+      "text": "Fees are proposals pending approval by the association’s bodies. The Board assigns the final fee category.",
       "individual": "Individuals",
       "organisational": "Organisations",
       "supporter": "Subscription"
@@ -432,7 +433,7 @@
       "organisation": "Organisation",
       "country": "Country (ISO code, e.g. AT)",
       "profile": "Professional profile",
-      "profileHint": "Education, experience and current role. For individual membership the Board checks the § 4 b 2 requirements (relevant degree or ≥ 4 years’ experience).",
+      "profileHint": "Education, experience and current role. For individual membership the Board checks the statutory requirements (relevant degree or ≥ 4 years’ experience).",
       "interests": "Areas of interest"
     },
     "s3": {
@@ -458,9 +459,9 @@
     },
     "s5": {
       "title": "Conditions",
-      "conditions": "I accept the membership conditions (statutes § 4–7), including the three-month notice period for resignation.",
+      "conditions": "I accept the membership conditions, including the three-month notice period for resignation.",
       "privacy": "I have read the privacy notice and agree to the processing of my data for the membership procedure.",
-      "statutes": "I acknowledge the Articles of Association and the resolutions of the association’s bodies (§ 6 d)."
+      "statutes": "I acknowledge the Articles of Association and the resolutions of the association’s bodies."
     },
     "s6": {
       "title": "Review and submit",
@@ -470,11 +471,11 @@
     },
     "s7": {
       "title": "Application review",
-      "text": "The Board deals with the application once two endorsements are on file, one from a Board member (§ 4 f). You will be informed of the decision and the fee category in writing. The Board may decline without stating reasons."
+      "text": "The Board deals with the application once two endorsements are on file, one from a Board member. You will be informed of the decision and the fee category in writing. The Board may decline without stating reasons."
     },
     "s8": {
       "title": "Payment",
-      "text": "After approval you receive an invoice for the pro-rata fee of the current association year (§ 6 a). Payment by bank transfer; card payment via Stripe once configured."
+      "text": "After approval you receive an invoice for the pro-rata fee of the current association year. Payment by bank transfer; card payment via Stripe once configured."
     },
     "done": {
       "title": "Application received",
@@ -549,7 +550,7 @@
       "expertise": "Expertise",
       "save": "Save changes",
       "deleteTitle": "Account deletion",
-      "deleteText": "You can request deletion of your account and personal data. Membership obligations for the current association year remain (§ 7 b). Deletion is processed by the Secretariat within 30 days.",
+      "deleteText": "You can request deletion of your account and personal data. Membership obligations for the current association year remain. Deletion is processed by the Secretariat within 30 days.",
       "deleteBtn": "Request account deletion"
     },
     "membership": {

@@ -18,13 +18,13 @@ export function BenefitsMatrix({ locale }: { locale: string }) {
         <tbody className="divide-y divide-line">
           {benefits.map((b, i) => (
             <tr key={i} className={b.governance ? "bg-blue/[0.04]" : ""}>
-              <td className="px-4 py-3">{tx(b.benefit, locale)}{b.governance && <span className="ml-2 inline-block rounded-sm bg-blue px-1.5 py-0.5 text-[0.6rem] font-semibold uppercase tracking-wider text-white" title={t("governanceMark")}>§</span>}</td>
+              <td className="px-4 py-3">{tx(b.benefit, locale)}{b.governance && <span className="ml-2 inline-block rounded-sm bg-blue px-1.5 py-0.5 text-[0.6rem] font-semibold uppercase tracking-wider text-white" title={t("governanceMark")}>{t("governanceShort")}</span>}</td>
               {cols.map(([l, k]) => <td key={l} className="px-3 py-3"><span className="sr-only">{b[k] ? "yes" : "no"}</span><div className="flex justify-center"><Check on={Boolean(b[k])} /></div></td>)}
             </tr>
           ))}
         </tbody>
       </table>
-      <p className="border-t border-line bg-paper px-4 py-2 text-xs text-ink-soft"><span className="mr-1 inline-block rounded-sm bg-blue px-1.5 py-0.5 text-[0.6rem] font-semibold text-white">§</span>{t("governanceMark")}</p>
+      <p className="border-t border-line bg-paper px-4 py-2 text-xs text-ink-soft"><span className="mr-1 inline-block rounded-sm bg-blue px-1.5 py-0.5 text-[0.6rem] font-semibold text-white">{t("governanceShort")}</span>{t("governanceMark")}</p>
     </div>
   );
 }

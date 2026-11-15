@@ -138,9 +138,9 @@
     "roleTitle": "Rôle",
     "scopeTitle": "Champ d’action",
     "objectivesTitle": "Objectifs et activités",
-    "objectivesLead": "Les statuts énumèrent les moyens par lesquels l’association poursuit son objet (§ 3 a). Les groupes de travail et services de ce site en sont la mise en pratique.",
+    "objectivesLead": "Les statuts énumèrent les moyens par lesquels l’association poursuit son objet. Les groupes de travail et services de ce site en sont la mise en pratique.",
     "governanceTitle": "Structure de gouvernance",
-    "governanceLead": "Les organes de l’association sont définis au § 8 des statuts. Les titulaires seront publiés ici une fois élus ; aucun nom n’est indiqué avant.",
+    "governanceLead": "Les organes de l’association sont définis par les statuts. Les titulaires seront publiés ici une fois élus ; aucun nom n’est indiqué avant.",
     "boardTitle": "Conseil d’administration",
     "boardNote": "Le Conseil se compose d’au moins cinq personnes physiques, les membres fondateurs, plus les membres élus par l’Assemblée générale. Noms et fonctions seront publiés après la réunion constitutive.",
     "wgLeadershipTitle": "Direction des groupes de travail",
@@ -149,13 +149,13 @@
     "statutesText": "Les statuts (allemand, avec traduction anglaise) régissent l’objet, l’adhésion, les organes et la dissolution.",
     "statutesDownload": "Statuts (PDF) — à publier",
     "conditionsTitle": "Conditions d’adhésion",
-    "conditionsLead": "L’admission et la fin de l’adhésion suivent les § 4, § 6 et § 7 des statuts.",
+    "conditionsLead": "L’admission et la fin de l’adhésion suivent les statuts.",
     "admissionTitle": "Admission",
     "terminationTitle": "Fin de l’adhésion",
     "transparencyTitle": "Transparence",
     "transparencyLead": "Le statut non lucratif entraîne des obligations. Voici celles que les statuts rendent contraignantes.",
     "reportsTitle": "Rapports annuels",
-    "reportsText": "Le Conseil rend compte à l’Assemblée générale des activités de l’année écoulée, présente les comptes et prépare le budget (§ 9 l). Les rapports annuels seront publiés ici à partir du premier exercice complet.",
+    "reportsText": "Le Conseil rend compte à l’Assemblée générale des activités de l’année écoulée, présente les comptes et prépare le budget. Les rapports annuels seront publiés ici à partir du premier exercice complet.",
     "contactTitle": "Contact"
   },
   "contact": {
@@ -198,24 +198,24 @@
   "membership": {
     "title": "Adhésion",
     "lead": "Ouverte aux entreprises de toute taille, universités, centres de recherche, organismes publics, fournisseurs de technologies, associations et personnes qualifiées. Les catégories d’adhésion sont celles des statuts ; les niveaux de cotisation sont des propositions pour le Conseil et l’Assemblée générale.",
-    "proposedBanner": "Les cotisations ci-dessous sont une proposition stratégique. Ce ne sont pas des prix adoptés : l’Assemblée générale fixe les cotisations et catégories (statuts § 10 c 8) et le Conseil affecte chaque membre à une catégorie (§ 4 g). Le Conseil peut modifier cette structure à tout moment.",
+    "proposedBanner": "Les cotisations ci-dessous sont une proposition stratégique. Ce ne sont pas des prix adoptés : l’Assemblée générale fixe les cotisations et catégories et le Conseil affecte chaque membre à une catégorie. Le Conseil peut modifier cette structure à tout moment.",
     "categoriesTitle": "Catégories d’adhésion selon les statuts",
-    "categoriesLead": "Quatre catégories existent (§ 4 a). Chaque niveau de cette page est un niveau de cotisation au sein de l’une d’elles.",
+    "categoriesLead": "Quatre catégories existent. Chaque niveau de cette page est un niveau de cotisation au sein de l’une d’elles.",
     "categories": [
       [
-        "Membres ordinaires — personnes morales (§ 4 b 1)",
-        "Autorités, personnes morales et autres collectivités d’Autriche ou de l’étranger. Seul le représentant officiellement désigné vote : 2 à 4 voix selon la catégorie de cotisation (§ 10 g)."
+        "Membres ordinaires — personnes morales",
+        "Autorités, personnes morales et autres collectivités d’Autriche ou de l’étranger. Seul le représentant officiellement désigné vote : 2 à 4 voix selon la catégorie de cotisation."
       ],
       [
-        "Membres ordinaires — personnes physiques (§ 4 b 2)",
+        "Membres ordinaires — personnes physiques",
         "Personnes ayant une formation pertinente achevée ou au moins quatre ans d’expérience pertinente. Une voix ; éligibles au Conseil."
       ],
       [
-        "Membres extraordinaires (§ 4 c)",
+        "Membres extraordinaires",
         "Étudiant·es et élèves d’établissements supérieurs. Peuvent assister à l’Assemblée générale ; pas de vote."
       ],
       [
-        "Membres correspondants et d’honneur (§ 4 d–e)",
+        "Membres correspondants et d’honneur",
         "Experts reconnus, et personnes honorées pour leur soutien financier ou leurs mérites de longue date. Les membres d’honneur votent et ne paient pas de cotisation."
       ]
     ],
@@ -234,11 +234,12 @@
     "colStrategic": "Partenaire stratégique",
     "governanceMark": "Droit de gouvernance selon les statuts",
     "howTitle": "Comment fonctionne l’admission",
-    "howLead": "Les statuts fixent la procédure (§ 4 f–g, § 6 a). La demande en ligne prépare le dossier ; le Conseil décide.",
-    "feesInclude": "Les cotisations couvrent l’exercice (année civile) ; les nouveaux membres paient au prorata par mois commencé (§ 6 a). Les membres d’honneur en sont exemptés (§ 6 b).",
+    "howLead": "Les statuts fixent la procédure. La demande en ligne prépare le dossier ; le Conseil décide.",
+    "feesInclude": "Les cotisations couvrent l’exercice (année civile) ; les nouveaux membres paient au prorata par mois commencé. Les membres d’honneur en sont exemptés.",
     "cta": "Commencer votre demande",
     "compare": "Télécharger le comparatif (PDF) — à publier",
-    "questions": "Une question sur le niveau adapté ? Écrivez à"
+    "questions": "Une question sur le niveau adapté ? Écrivez à",
+    "governanceShort": "Gouvernance"
   },
   "wg": {
     "title": "Groupes de travail",
@@ -296,7 +297,7 @@
     },
     "priority": "Priorité",
     "projectsTitle": "Projets",
-    "projectsText": "Les projets de recherche et d’innovation, les initiatives collaboratives financées par l’UE et les travaux sous contrat relèvent des § 3 a 7 et § 3 a 15 des statuts. Le registre des projets sera publié ici au démarrage des projets.",
+    "projectsText": "Les projets de recherche et d’innovation, les initiatives collaboratives financées par l’UE et les travaux sous contrat s’inscrivent dans le cadre des statuts. Le registre des projets sera publié ici au démarrage des projets.",
     "businessTitle": "Modèle financier",
     "businessText": "La manière dont l’association se finance, et les limites posées par son statut non lucratif, sont décrites dans la note sur le modèle économique.",
     "businessLink": "Lire le modèle financier"
@@ -401,7 +402,7 @@
   },
   "join": {
     "title": "Devenir membre",
-    "lead": "Huit étapes. Les six premières préparent votre demande ; le Conseil l’examine selon le § 4 f des statuts ; le paiement suit l’approbation.",
+    "lead": "Huit étapes. Les six premières préparent votre demande ; le Conseil l’examine conformément aux statuts ; le paiement suit l’approbation.",
     "steps": [
       "Catégorie",
       "Vos coordonnées",
@@ -418,7 +419,7 @@
     "submit": "Envoyer la demande",
     "s1": {
       "title": "Choisissez votre catégorie d’adhésion",
-      "text": "Les cotisations sont des propositions en attente d’approbation par les organes de l’association. Le Conseil attribue la catégorie définitive (§ 4 g).",
+      "text": "Les cotisations sont des propositions en attente d’approbation par les organes de l’association. Le Conseil attribue la catégorie définitive.",
       "individual": "Personnes physiques",
       "organisational": "Organisations",
       "supporter": "Abonnement"
@@ -432,7 +433,7 @@
       "organisation": "Organisation",
       "country": "Pays (code ISO, ex. AT)",
       "profile": "Profil professionnel",
-      "profileHint": "Formation, expérience et poste actuel. Pour l’adhésion individuelle, le Conseil vérifie les conditions du § 4 b 2 (diplôme pertinent ou ≥ 4 ans d’expérience).",
+      "profileHint": "Formation, expérience et poste actuel. Pour l’adhésion individuelle, le Conseil vérifie les conditions statutaires (diplôme pertinent ou ≥ 4 ans d’expérience).",
       "interests": "Centres d’intérêt"
     },
     "s3": {
@@ -458,9 +459,9 @@
     },
     "s5": {
       "title": "Conditions",
-      "conditions": "J’accepte les conditions d’adhésion (statuts § 4–7), y compris le préavis de trois mois pour la démission.",
+      "conditions": "J’accepte les conditions d’adhésion, y compris le préavis de trois mois pour la démission.",
       "privacy": "J’ai lu la politique de confidentialité et j’accepte le traitement de mes données pour la procédure d’adhésion.",
-      "statutes": "Je reconnais les statuts et les résolutions des organes de l’association (§ 6 d)."
+      "statutes": "Je reconnais les statuts et les résolutions des organes de l’association."
     },
     "s6": {
       "title": "Vérifier et envoyer",
@@ -470,11 +471,11 @@
     },
     "s7": {
       "title": "Examen de la demande",
-      "text": "Le Conseil traite la demande dès que deux parrainages sont au dossier, dont un d’un membre du Conseil (§ 4 f). Vous êtes informé·e par écrit de la décision et de la catégorie de cotisation. Le Conseil peut refuser sans motif."
+      "text": "Le Conseil traite la demande dès que deux parrainages sont au dossier, dont un d’un membre du Conseil. Vous êtes informé·e par écrit de la décision et de la catégorie de cotisation. Le Conseil peut refuser sans motif."
     },
     "s8": {
       "title": "Paiement",
-      "text": "Après approbation, vous recevez une facture au prorata de l’exercice en cours (§ 6 a). Paiement par virement ; paiement par carte via Stripe une fois configuré."
+      "text": "Après approbation, vous recevez une facture au prorata de l’exercice en cours. Paiement par virement ; paiement par carte via Stripe une fois configuré."
     },
     "done": {
       "title": "Demande reçue",
@@ -549,7 +550,7 @@
       "expertise": "Expertise",
       "save": "Enregistrer",
       "deleteTitle": "Suppression du compte",
-      "deleteText": "Vous pouvez demander la suppression de votre compte et de vos données. Les obligations d’adhésion de l’exercice en cours demeurent (§ 7 b). La suppression est traitée par le Secrétariat sous 30 jours.",
+      "deleteText": "Vous pouvez demander la suppression de votre compte et de vos données. Les obligations d’adhésion de l’exercice en cours demeurent. La suppression est traitée par le Secrétariat sous 30 jours.",
       "deleteBtn": "Demander la suppression du compte"
     },
     "membership": {

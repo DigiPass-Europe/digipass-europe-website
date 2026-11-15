@@ -260,7 +260,7 @@ export const workingGroups: WorkingGroup[] = [
     ],
     activities: [
       L("Curriculum working sessions with universities of applied sciences.", "Séances de travail sur les cursus avec les hautes écoles spécialisées."),
-      L("Promotion of young professionals (statutes § 3 a 4).", "Promotion des jeunes professionnels (statuts § 3 a 4)."),
+      L("Promotion of young professionals.", "Promotion des jeunes professionnels."),
     ],
     deliverables: [
       L("Training programmes.", "Programmes de formation."),

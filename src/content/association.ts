@@ -23,12 +23,12 @@ export const mission = {
     "DigiPass:Europe réunit l’industrie, les fournisseurs de technologies, les chercheurs, les décideurs et les autres parties prenantes pour accélérer le développement, l’adoption et l’interopérabilité des passeports numériques des produits en Europe."),
   // § 2 a–b verbatim in substance
   purpose: L(
-    "DigiPass:Europe is a non-profit technical-scientific association for digitalisation and the Digital Product Passport. Its purpose is to promote all areas of digitalisation and the Digital Product Passport, from education and training through research and innovation to industrial application (statutes § 2 a).",
-    "DigiPass:Europe est une association technico-scientifique à but non lucratif pour la numérisation et le passeport numérique des produits. Son objet est de promouvoir tous les domaines de la numérisation et du passeport numérique des produits, de la formation à l’application industrielle en passant par la recherche et l’innovation (statuts § 2 a)."),
+    "DigiPass:Europe is a non-profit technical-scientific association for digitalisation and the Digital Product Passport. Its purpose is to promote all areas of digitalisation and the Digital Product Passport, from education and training through research and innovation to industrial application.",
+    "DigiPass:Europe est une association technico-scientifique à but non lucratif pour la numérisation et le passeport numérique des produits. Son objet est de promouvoir tous les domaines de la numérisation et du passeport numérique des produits, de la formation à l’application industrielle en passant par la recherche et l’innovation."),
   role: L(
-    "The association is the European networking hub for digitalisation and the Digital Product Passport, and the interface to the European Commission, national and international initiatives and standardisation bodies (statutes § 2 b).",
-    "L’association est le pôle européen de mise en réseau pour la numérisation et le passeport numérique des produits, et l’interface avec la Commission européenne, les initiatives nationales et internationales et les organismes de normalisation (statuts § 2 b)."),
-  scope: L("Worldwide scope of activity, with a particular focus on Europe; branch offices without separate legal personality are provided for (§ 1 b).", "Champ d’activité mondial, avec un accent particulier sur l’Europe ; des antennes sans personnalité juridique propre sont prévues (§ 1 b)."),
+    "The association is the European networking hub for digitalisation and the Digital Product Passport, and the interface to the European Commission, national and international initiatives and standardisation bodies.",
+    "L’association est le pôle européen de mise en réseau pour la numérisation et le passeport numérique des produits, et l’interface avec la Commission européenne, les initiatives nationales et internationales et les organismes de normalisation."),
+  scope: L("Worldwide scope of activity, with a particular focus on Europe; branch offices without separate legal personality are provided for.", "Champ d’activité mondial, avec un accent particulier sur l’Europe ; des antennes sans personnalité juridique propre sont prévues."),
 };
 
 // § 3 a — non-material means (selection shown publicly)

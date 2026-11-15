@@ -16,7 +16,7 @@ export default async function MembershipPage({ params }: { params: Promise<{ loc
   const organisational = feeTiers.filter((f) => f.kind === "organisational");
   return (
     <>
-      <PageHero eyebrow="§ 4–7" title={t("title")} lead={t("lead")}><div className="mt-8"><ButtonLink href="/join" variant="green">{t("cta")}</ButtonLink></div></PageHero>
+      <PageHero title={t("title")} lead={t("lead")}><div className="mt-8"><ButtonLink href="/join" variant="green">{t("cta")}</ButtonLink></div></PageHero>
       <Section>
         <div className="rounded-lg border border-gold bg-gold/10 p-5 text-sm leading-relaxed text-[#4a3d00]">{t("proposedBanner")}</div>
         <div className="mt-14"><SectionHead title={t("categoriesTitle")} lead={t("categoriesLead")} />

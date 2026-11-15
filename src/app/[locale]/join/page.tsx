@@ -12,7 +12,7 @@ export default async function JoinPage({ params, searchParams }: { params: Promi
   const initialTier = feeTiers.some((f) => f.id === tier) ? tier : undefined;
   return (
     <>
-      <PageHero eyebrow="§ 4 f–g" title={t("title")} lead={t("lead")} />
+      <PageHero title={t("title")} lead={t("lead")} />
       <Section><ApplicationWizard initialTier={initialTier} /></Section>
     </>
   );

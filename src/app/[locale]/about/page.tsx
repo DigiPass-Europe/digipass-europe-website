@@ -22,13 +22,13 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         </div>
       </Section>
       <Section tone="paper" id="objectives">
-        <SectionHead eyebrow="§ 3" title={t("objectivesTitle")} lead={t("objectivesLead")} />
+        <SectionHead title={t("objectivesTitle")} lead={t("objectivesLead")} />
         <ol className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {activities.map((a, i) => <li key={i} className="flex gap-4 rounded-lg border border-line bg-white p-5 text-sm leading-relaxed"><span className="font-semibold text-green">{String(i + 1).padStart(2, "0")}</span>{tx(a, locale)}</li>)}
         </ol>
       </Section>
       <Section id="governance">
-        <SectionHead eyebrow="§ 8–14" title={t("governanceTitle")} lead={t("governanceLead")} />
+        <SectionHead title={t("governanceTitle")} lead={t("governanceLead")} />
         <div className="mt-10 grid gap-6 lg:grid-cols-2">
           {bodies.map((b) => (
             <article key={b.id} id={b.id} className="rounded-lg border border-line p-6">
@@ -47,8 +47,8 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       </Section>
       <Section tone="paper" id="statutes">
         <div className="grid gap-10 lg:grid-cols-2">
-          <div><SectionHead eyebrow="§ 1–15" title={t("statutesTitle")} lead={t("statutesText")} /><p className="mt-6 inline-flex items-center gap-2 rounded-md border border-dashed border-ink/30 px-4 py-2 text-sm text-ink-soft">{t("statutesDownload")}</p></div>
-          <div><SectionHead eyebrow="§ 4, 6, 7" title={t("conditionsTitle")} lead={t("conditionsLead")} />
+          <div><SectionHead title={t("statutesTitle")} lead={t("statutesText")} /><p className="mt-6 inline-flex items-center gap-2 rounded-md border border-dashed border-ink/30 px-4 py-2 text-sm text-ink-soft">{t("statutesDownload")}</p></div>
+          <div><SectionHead title={t("conditionsTitle")} lead={t("conditionsLead")} />
             <h3 className="mt-6 text-sm font-semibold uppercase tracking-wider text-ink-soft">{t("admissionTitle")}</h3>
             <ol className="mt-2 list-decimal space-y-1 pl-5 text-sm text-ink-soft">{admissionSteps.map((s, i) => <li key={i}>{tx(s, locale)}</li>)}</ol>
             <h3 className="mt-6 text-sm font-semibold uppercase tracking-wider text-ink-soft">{t("terminationTitle")}</h3>
@@ -57,7 +57,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       </Section>
       <Section id="transparency">
         <div className="grid gap-10 lg:grid-cols-2">
-          <div><SectionHead eyebrow="§ 2–3a, 15" title={t("transparencyTitle")} lead={t("transparencyLead")} /><ul className="mt-6 space-y-3 text-sm leading-relaxed text-ink-soft">{transparency.map((s, i) => <li key={i} className="flex gap-3"><span className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-green" />{tx(s, locale)}</li>)}</ul></div>
+          <div><SectionHead title={t("transparencyTitle")} lead={t("transparencyLead")} /><ul className="mt-6 space-y-3 text-sm leading-relaxed text-ink-soft">{transparency.map((s, i) => <li key={i} className="flex gap-3"><span className="mt-2 h-1.5 w-1.5 flex-none rounded-full bg-green" />{tx(s, locale)}</li>)}</ul></div>
           <div><SectionHead title={t("reportsTitle")} lead={t("reportsText")} />
             <h3 className="mt-10 text-sm font-semibold uppercase tracking-wider text-ink-soft">{t("contactTitle")}</h3>
             <address className="mt-2 not-italic text-sm leading-relaxed text-ink-soft">DigiPass:Europe<br />{site.address}<br />{site.seat}<br />{site.register}<br /><a className="text-blue hover:underline" href={`mailto:${site.email}`}>{site.email}</a></address></div>

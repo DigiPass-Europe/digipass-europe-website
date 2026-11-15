@@ -11,7 +11,7 @@ export default async function ActivitiesPage({ params }: { params: Promise<{ loc
   const t = await getTranslations("activities");
   return (
     <>
-      <PageHero eyebrow="§ 3 a" title={t("title")} lead={t("lead")} />
+      <PageHero title={t("title")} lead={t("lead")} />
       <Section id="programmes">
         <SectionHead title={t("programmesTitle")} />
         <ol className="mt-10 grid gap-5 md:grid-cols-2">

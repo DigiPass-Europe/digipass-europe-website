@@ -13,7 +13,7 @@ export default async function WorkingGroupsPage({ params }: { params: Promise<{ 
   const t = await getTranslations("wg"); const c = await getTranslations("common");
   return (
     <>
-      <PageHero eyebrow="§ 3 a 1" title={t("title")} lead={t("lead")} tone="ink"><div className="mt-8 flex flex-wrap gap-3"><ButtonLink href="/join" variant="green">{c("learnMore")}: {t("join")}</ButtonLink><ButtonLink href="/contact" variant="outline-light">{t("propose")}</ButtonLink></div></PageHero>
+      <PageHero title={t("title")} lead={t("lead")} tone="ink"><div className="mt-8 flex flex-wrap gap-3"><ButtonLink href="/join" variant="green">{c("learnMore")}: {t("join")}</ButtonLink><ButtonLink href="/contact" variant="outline-light">{t("propose")}</ButtonLink></div></PageHero>
       <Section>
         <ul className="grid gap-5 md:grid-cols-2">
           {workingGroups.map((wg) => (

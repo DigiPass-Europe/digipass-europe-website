@@ -2,10 +2,10 @@
 import type { Role } from "@/lib/auth/roles";
 
 export const demoMembership: Record<Exclude<Role, "visitor">, { category: string; tier: string; votes: number; since: string; renewal: string; status: "active" | "pending" | "expired"; invoices: { id: string; date: string; amount: number; paid: boolean }[] }> = {
-  member: { category: "Ordinary member — individual (§ 4 b 2)", tier: "full-individual", votes: 1, since: "2026-09-01", renewal: "2027-01-01", status: "active", invoices: [{ id: "INV-2026-0042", date: "2026-09-05", amount: 50, paid: true }] },
-  "wg-chair": { category: "Ordinary member — legal entity (§ 4 b 1)", tier: "sme-medium", votes: 3, since: "2026-09-01", renewal: "2027-01-01", status: "active", invoices: [{ id: "INV-2026-0017", date: "2026-09-03", amount: 500, paid: true }] },
-  "org-admin": { category: "Ordinary member — legal entity (§ 4 b 1)", tier: "large", votes: 4, since: "2026-09-01", renewal: "2027-01-01", status: "active", invoices: [{ id: "INV-2026-0003", date: "2026-09-02", amount: 1000, paid: true }, { id: "INV-2027-0003", date: "2026-12-01", amount: 3000, paid: false }] },
-  admin: { category: "General Secretary (§ 13 c)", tier: "full-individual", votes: 1, since: "2026-09-01", renewal: "—", status: "active", invoices: [] },
+  member: { category: "Ordinary member — individual", tier: "full-individual", votes: 1, since: "2026-09-01", renewal: "2027-01-01", status: "active", invoices: [{ id: "INV-2026-0042", date: "2026-09-05", amount: 50, paid: true }] },
+  "wg-chair": { category: "Ordinary member — legal entity", tier: "sme-medium", votes: 3, since: "2026-09-01", renewal: "2027-01-01", status: "active", invoices: [{ id: "INV-2026-0017", date: "2026-09-03", amount: 500, paid: true }] },
+  "org-admin": { category: "Ordinary member — legal entity", tier: "large", votes: 4, since: "2026-09-01", renewal: "2027-01-01", status: "active", invoices: [{ id: "INV-2026-0003", date: "2026-09-02", amount: 1000, paid: true }, { id: "INV-2027-0003", date: "2026-12-01", amount: 3000, paid: false }] },
+  admin: { category: "General Secretary", tier: "full-individual", votes: 1, since: "2026-09-01", renewal: "—", status: "active", invoices: [] },
 };
 export const demoWgs: Record<Exclude<Role, "visitor">, { id: string; role: "participant" | "chair" | "vice-chair" }[]> = {
   member: [{ id: "wg4", role: "participant" }, { id: "wg7", role: "participant" }],
